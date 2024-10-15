@@ -1,0 +1,10 @@
+Passo 1 Instalar o anbiente virtual - pip intasll virtualenv
+Passo 2 Criar o ambiente virtual - python -m venv venv
+Passo 3 Ativar o ambiente virtual - (venv)   (Scripts)  (.\activate)
+Passo 4 Instalar o DJango - pip install DJango
+Passo 5 Criar o projeto - django-admin startproject project
+Passo 6 Criar o app - django-admin startapp app ---- "Sempre tem que colocar o nome do projeto no settings.py" ----
+Passo 7 Rodar o projeto - python manage.py runserver
+Passo 8 Qualquer alteração ultilizar o makemigrations - python manage.py makemigrations
+Passo 9 Qualquer alteração ultilizar o migrate - python manage.py migrate
+Passo 10 Criar o super usuario - python manage.py createsuperuser
